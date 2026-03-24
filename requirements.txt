@@ -1,0 +1,7 @@
+streamlit
+requests
+sentence-transformers==2.2.2
+torch
+transformers
+supabase
+python-dotenv

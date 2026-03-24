@@ -1,9 +1,9 @@
-streamlit==1.33.0
+streamlit
 requests
-sentence-transformers==2.2.2
-transformers==4.36.2
-torch==2.0.1
-huggingface-hub==0.16.4
+sentence-transformers
+transformers
+torch
+huggingface-hub
 supabase
 python-dotenv
 numpy

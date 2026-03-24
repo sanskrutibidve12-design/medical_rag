@@ -1,7 +1,11 @@
-streamlit
+streamlit==1.33.0
 requests
 sentence-transformers==2.2.2
-torch
-transformers
+transformers==4.36.2
+torch==2.0.1
+huggingface-hub==0.16.4
 supabase
 python-dotenv
+numpy
+scikit-learn
+scipy

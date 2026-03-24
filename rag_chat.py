@@ -17,7 +17,7 @@ embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.secrets("GROQ_API_KEY")
 print("GROQ API Key loaded:", bool(GROQ_API_KEY))
 # --------------------------------
 # Search similar documents
